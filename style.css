@@ -1,11 +1,13 @@
+body {
+background-color: #F5F4F0;
+font-family: "Open Sans", sans-serif ; 
+}
+
 main {
-    background-color: #F5F4F0;
-    width: 1120px;
-    margin: auto 80px;
     box-sizing: border-box;
 }
 #upper {
-    color: #E1624F ;
+    color: #E1624F;
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
@@ -15,5 +17,88 @@ main {
     width: 100%;
 }
 h1 {
-    color: #1b1b1b
+    color: #1b1b1b;
+    font-size: 36px;
 }   
+sub {
+    font-style: italic;
+    font-size: 16px;
+    color: #333333;
+}
+h2 {
+    font-size: 32px;
+    color: #1b1b1b;
+}
+#busan {
+color: #333333;
+font-size: 16px;
+}
+ol h3 {
+    color: #1b1b1b;
+    font-size: 28px;
+    font-weight: bold;
+}                                       
+ol li::marker {
+  font-size: 2rem;
+  font-weight: bold;
+}
+#idade{
+    color:#333333 ;
+    font-size: 16px;
+} 
+#haedong p + p {
+    color:  #333333;
+    font-weight: bold;
+    font-size: 16px;
+}
+#history {
+font-size: 16px;
+color: #0c51a7;
+font-weight: bold;
+list-style-type: disc;
+}
+#history ::marker {
+  font-size: 15px;
+  color: #333333;
+}
+#beomeo p + p {
+    color:  #333333;
+    font-weight: bold;
+    font-size: 16px;
+}
+#yougdusan p + p {
+    color:  #333333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#good ::marker {
+  font-size: 15px;
+  color: #333333;
+}
+
+#purple {
+font-size: 16px;
+color: #591b98;
+font-weight: bold;
+list-style-type: disc;
+}
+#pink {
+font-size: 16px;
+color: #e5245e;
+font-weight: bold;
+list-style-type: disc;
+}
+
+#orange {
+font-size: 16px;
+color: #e95e10;
+font-weight: bold;
+list-style-type: disc;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
