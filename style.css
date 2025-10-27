@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
 body {
 background-color: #F5F4F0;
 font-family: "Open Sans", sans-serif ; 
@@ -5,6 +11,9 @@ font-family: "Open Sans", sans-serif ;
 
 main {
     box-sizing: border-box;
+    margin: 80px 88px;
+    width: 1120px;
+    height: auto;
 }
 #upper {
     color: #E1624F;
