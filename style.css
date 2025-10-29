@@ -14,6 +14,7 @@ main {
     margin: 80px 88px;
     width: 1120px;
     height: auto;
+    list-style-position: inside;
 }
 #upper {
     color: #E1624F;
@@ -51,14 +52,17 @@ ol h3 {
     font-weight: bold;
     margin-top: 20px; 
     margin-bottom: 4px;
+    display: inline;
 }                                       
 ol li::marker {
   font-size: 2rem;
   font-weight: bold;
+  
 }
 #idade{
     color:#333333 ;
     font-size: 16px;
+    text-align: center;
 } 
 #destinations {
     margin-bottom: 64px;
@@ -130,4 +134,15 @@ margin-left: 15px;
   margin: 36px 0;
   background-color: #d9d9d9;
 }
-
+footer {
+    text-align: center;
+    padding-bottom: 48px;
+    margin-top: 65px;
+    line-height: 150%;
+    color: #333333;
+}
+footer img {
+    vertical-align: middle;
+    margin-left: 4px;
+    margin-right: 4px;
+}
